@@ -34,7 +34,7 @@ const router = createBrowserRouter([
     {path: '/detail/:branchName/:roomType', element: <RoomType />},
     {path: '/detail/:branchName/:roomType/:id', element:<Payment />},
     {path: '/booking', element:<CheckBookingPage/>} , 
-    {path: '/adminPages', element: <AdminPage />},
+    {path: '/admin-pages', element: <AdminPage />},
     
     
     // {path: '/detail/:branchName/:roomType/:payment', 
