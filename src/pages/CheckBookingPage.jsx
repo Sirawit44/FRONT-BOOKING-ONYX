@@ -24,7 +24,7 @@ export default function CheckBookingPage() {
   return (
     <div className="grid grid-cols-2 p-5 m-5">
       {data.map((el) => (
-        <CancelBooking key = {el.id} el={el}/>
+        <CancelBooking fetch={fetchData} key = {el.id} el={el}/>
       ))}
     </div>
   );

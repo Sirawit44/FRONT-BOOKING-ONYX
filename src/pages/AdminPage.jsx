@@ -26,7 +26,9 @@ export default function AdminPage() {
   return (
     <div>
       {data.map((el,index) => (
-        <EditCart key={index} index={index} el={el}/>
+        <EditCart
+        fetch={fetchData}
+        key={index} index={index} el={el}/>
       ))}
     </div>
   );
